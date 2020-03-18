@@ -5,7 +5,8 @@ module.exports = function(environment) {
     modulePrefix: 'empress-documentation',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'trailing-history',
+
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,7 +21,15 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+
+    guidemaker: {
+      title: 'Empress Documentation',
+      description: 'Empress - JAM Stack projects built with Ember',
+      sourceRepo: 'https://github.com/empress/documentation'
+    },
+
+    historySupportMiddleware: true
   };
 
   if (environment === 'development') {
