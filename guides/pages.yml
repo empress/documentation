@@ -12,3 +12,13 @@
       url: "index"
     - title: "Editing"
       url: "editing"
+
+- title: "Empress Blog"
+  url: 'empress-blog'
+  pages:
+    - title: "Introduction"
+      url: "index"
+    - title: "Custom templates"
+      url: "custom-templates"
+    - title: "Porting a Ghost template"
+      url: "ghost-templates"
