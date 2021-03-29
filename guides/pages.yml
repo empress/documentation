@@ -1,14 +1,23 @@
-- title: "Guides and Tutorials"
+- title: "Introduction"
   url: 'index'
-  skip_toc: true
   pages:
-    - title: "Guides"
+    - title: "Overview"
       url: ""
 
-- title: "Getting Started"
-  url: 'getting-started'
+- title: "Empress Products"
+  url: 'empress-products'
+  pages:
+    - title: "What is an Empress Product"
+      url: "index"
+    - title: "The Architecture of an Empress Product"
+      url: "architecture"
+
+- title: "Empress Blog"
+  url: 'empress-blog'
   pages:
     - title: "Introduction"
       url: "index"
-    - title: "Editing"
-      url: "editing"
+    - title: "Custom templates"
+      url: "custom-templates"
+    - title: "Porting a Ghost template"
+      url: "ghost-templates"
