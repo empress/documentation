@@ -1,1 +1,1 @@
-If your'e reading this in your browser then congratulations! You are already started.
+If you are reading this in your browser then congratulations! You have already started.
